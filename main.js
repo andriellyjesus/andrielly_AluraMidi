@@ -17,11 +17,11 @@ function tocaSomtim () {
 
 document.querySelector('.tecla_tim').onclick = tocaSomtim;
 
-function tocaSomputt () {
-    document.querySelector('#som_tecla_putt').play();
+function tocaSompuff () {
+    document.querySelector('#som_tecla_puff').play();
 }
 
-document.querySelector('.tecla_putt').onclick = tocaSomPutt;
+document.querySelector('.tecla_puff').onclick = tocaSomPuff;
 
 function tocaSomsplash () {
     document.querySelector('#som_tecla_splash').play();
