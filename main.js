@@ -10,7 +10,7 @@ let contador =0;
 //enquanto
 while (contador < 9){
 
-    listaDeTeclas[0].onclik = tocaSomPom;
+    listaDeTeclas[0].onclik = TocaSomPom;
 
     contador = contador +1;
 
