@@ -3,13 +3,13 @@ function tocaSompom () {
     document.querySelector('#som_tecla_pom').play();
 }
 
-const listaDeTeclas =document.querySelectorAl('.techa');
+const listaDeTeclas =document.querySelectorAll('.techa');
 
 let contador =0;
 
 //enquanto
 while (contador < 9){
-    
+
     listaDeTeclas[0].onclik = tocaSompom;
 
     contador = contador +1;
